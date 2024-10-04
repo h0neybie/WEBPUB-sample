@@ -1,0 +1,66 @@
+/*  6WEBPUB: Sample Sign Up Form
+    CREATED BY: ABBY C. DIZON (WD-302)
+    Submitted on August 24, 2024  */
+
+body {
+    font-family: 'Libre Caslon Display', serif;
+    background-image: url("/media/bgi.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #495057;
+}
+
+h2, h3 {
+    color: #495057; 
+}
+
+.btn-success, .btn-go-login {
+    background-color: #939e6e;
+    border-color: #939e6e;
+    color: #fff;
+}
+
+.btn-success:hover, .btn-go-login:hover {
+    background-color: #6b7251;
+    border-color: #6b7251;
+    color: #fff;
+}
+
+.btn-go-login {
+    margin-top: 20px;
+}
+
+.submitted-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #f5f5dc; 
+    border: none;
+    margin-top: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.form-label {
+    color: #585e63; 
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"], input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #555555;
+    padding: 10px;
+    background-color: #fff;
+}
+
+input[type="radio"] + label {
+    margin-right: 20px;
+    color: #574949;
+}
+
+.container {
+    padding-top: 0px;
+}
+
